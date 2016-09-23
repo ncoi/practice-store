@@ -1,0 +1,32 @@
+{
+  "name": "practice-store",
+  "version": "1.0.0",
+  "description": "Shoe store practice using Git",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss   public/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "nanofy": "cssnano public/css/main.css public/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncoi/practice-store.git"
+  },
+  "author": "Nelson Orduz - Melissa Calderon - Andres Aguilar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ncoi/practice-store/issues"
+  },
+  "homepage": "https://github.com/ncoi/practice-store#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.6.3",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "cssnano": "^3.7.5",
+    "node-sass": "^3.10.0",
+    "nodemon": "^1.10.2"
+  }
+}

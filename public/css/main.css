@@ -1,0 +1,60 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300';
+html {
+  font-size: 16px; }
+
+body {
+  background-color: #f2f9fd;
+  font-size: 100%; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+p {
+  margin: 0; }
+
+@font-face {
+  font-family: 'DINNextLTPro';
+  src: url("../fonts/DINNextLTPro-MediumCond.otf"); }
+
+p {
+  font-family: 'Roboto';
+  font-size: 0.75em;
+  color: #666666; }
+
+.p--susbtitle {
+  font-size: 0.875em; }
+
+h1 {
+  font-family: 'DINNextLTPro';
+  font-size: 2.8125em;
+  color: #333333;
+  text-transform: uppercase; }
+
+h2 {
+  font-family: 'DINNextLTPro';
+  font-size: 1.125em;
+  color: #333333;
+  text-transform: uppercase; }
+
+.h2--discount-red {
+  text-decoration: line-through;
+  color: #FC7070; }
+
+.h2--big-title-card {
+  font-size: 3.4375em;
+  color: #FFFFFF; }
+
+h3 {
+  font-family: 'DINNextLTPro';
+  font-size: 0.875em;
+  color: #333333;
+  text-transform: uppercase; }
+
+.h3--color-white {
+  color: #FFFFFF; }
+
+.h3--color-blue {
+  color: #0089CF; }
+
+header {
+  padding: 1.25em; }

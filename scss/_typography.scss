@@ -1,0 +1,49 @@
+p {
+    font-family: 'Roboto';
+    font-size: em(12);
+    color: $color_gray;
+}
+
+.p--susbtitle {
+    font-size: em(14);
+}
+
+h1 {
+    font-family: 'DINNextLTPro';
+    font-size: em(45);
+    color: $color_black;
+    text-transform: uppercase;
+}
+
+h2 {
+   font-family: 'DINNextLTPro';
+   font-size: em(18);
+   color: $color_black;
+   text-transform: uppercase;
+}
+
+.h2--discount-red {
+   text-decoration: line-through;
+   color: $color_red; 
+}
+
+.h2--big-title-card {
+    font-size: em(55);
+    color: $color_white;
+}
+
+
+h3 {
+   font-family: 'DINNextLTPro';
+   font-size: em(14);
+   color: $color_black;
+   text-transform: uppercase;
+}
+
+.h3--color-white {
+    color: $color_white;
+}
+
+.h3--color-blue {
+    color: $color_blue;
+}
