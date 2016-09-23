@@ -1,2 +1,2 @@
-# practice_store
+# practice-store
 Shoe store practice using Git
