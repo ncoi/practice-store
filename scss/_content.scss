@@ -1,0 +1,63 @@
+main{
+    margin: em(40);
+    margin-top: em(20);
+}
+.img-center {
+  margin: 0 auto; 
+}
+
+.badge-green {
+    background-color: $color_green;
+    padding-left: em(14);
+    padding-right: em(14);
+}
+
+.badge-blue {
+    background-color: $color_blue;
+    padding-left: em(14);
+    padding-right: em(14);
+}
+
+.card {
+    background-color: $color_white;
+    height: em(430);
+    padding: em(28);
+    position: relative;
+}
+
+.most-popular {
+    background-color: transparent;
+    border: none;
+    font-family: 'DINNextLTPro';
+    font-size: em(14);
+    color: $color_darkgray;
+    text-transform: uppercase;
+}
+
+.arrow-down {
+    padding-left: em(20);
+}
+
+.content {
+    bottom: em(50);
+    position:absolute;
+    width: 100%;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.card-arrivals {
+    background-image: url(../img/product12.png);
+    background-size: cover;
+}
+
+.gray-icon {
+    color: $color_gray;
+}
+
+.btn-icon {
+    background-color: transparent;
+    border: none;
+}

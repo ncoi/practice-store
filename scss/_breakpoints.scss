@@ -1,1 +1,6 @@
 // breakpoints for headers 768
+@media (min-width: 992px){
+    .element{
+        padding-top: em(80);
+    }
+}
