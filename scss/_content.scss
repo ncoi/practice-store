@@ -1,6 +1,6 @@
 main{
-    margin-left: em(40);
-    margin-right: em(40);
+    margin: em(40);
+    margin-top: em(20);
 }
 .img-center {
   margin: 0 auto; 
@@ -8,16 +8,21 @@ main{
 
 .badge-green {
     background-color: $color_green;
+    padding-left: em(14);
+    padding-right: em(14);
 }
 
 .badge-blue {
     background-color: $color_blue;
+    padding-left: em(14);
+    padding-right: em(14);
 }
 
 .card {
     background-color: $color_white;
     height: em(430);
     padding: em(28);
+    position: relative;
 }
 
 .most-popular {
@@ -34,9 +39,13 @@ main{
 }
 
 .content {
-    position: absolute;
-    bottom: em(100);
-    left: em(50);
+    bottom: em(50);
+    position:absolute;
+    width: 100%;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .card-arrivals {
