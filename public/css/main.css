@@ -133,10 +133,6 @@ input {
   font-size: 0.875em;
   color: #666666; }
 
-@media (min-width: 992px) {
-  .element {
-    padding-top: 5em; } }
-
 header {
   margin-top: 5px;
   margin-left: 5px;
@@ -193,22 +189,23 @@ footer {
   text-transform: uppercase; }
 
 .sharelist_item {
-  width: 3.125em;
-  height: 3.125em;
   text-decoration: none;
   display: inline;
   padding-right: 0.125em; }
 
 .sharelist_item a {
-  color: #333333; }
+  color: #333333;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding: 12px;
+  border: 1px solid #333333; }
 
 .sharelist_icon {
-  text-align: center;
-  padding: 0.3125em;
-  border: 1px solid #333333;
   font-size: 1.5625em; }
 
 .form input {
+  width: 278px;
   padding-left: 1.875em;
   background-color: transparent;
   border: none;
@@ -236,6 +233,30 @@ footer {
   text-align: center;
   color: #333333;
   margin-top: 2.5em; }
+
+@media (min-width: 992px) {
+  .element {
+    padding-top: 5em; } }
+
+@media (max-width: 1328px) {
+  .form input {
+    width: 80%; } }
+
+@media (max-width: 1415px) {
+  .menulist li {
+    padding-right: 6.25em; } }
+
+@media (max-width: 1270px) {
+  .menulist li {
+    padding-right: 4.375em; } }
+
+@media (max-width: 1100px) {
+  .menulist li {
+    padding-right: 50%; } }
+
+@media (max-width: 610px) {
+  .menulist li {
+    padding-right: 30%; } }
 
 /* Padding top 15px */
 .p-t-15 {
