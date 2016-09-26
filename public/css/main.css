@@ -77,6 +77,7 @@ input {
   color: #666666; }
 
 header {
+<<<<<<< HEAD
   padding: 1.25em; }
 
 footer {
@@ -132,3 +133,37 @@ footer {
   text-align: center;
   color: #333333;
   margin-top: 2.5em; }
+=======
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px; }
+
+.header__item {
+  font-family: 'DINNextLTPro';
+  font-size: 1em;
+  color: #333333;
+  text-transform: uppercase; }
+
+.header__item--blue {
+  color: #0089CF; }
+
+.header__item--red {
+  color: #FC7070; }
+
+.header__item--active {
+  border-bottom: 4px solid #0089CF;
+  color: #0089CF; }
+
+.navbar-nav > li > a:hover {
+  background-color: #F2F9FD;
+  border-bottom: 4px solid #0089CF;
+  color: #0089CF; }
+
+.navbar-nav > li > a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 10px;
+  margin-right: 10px; }
+>>>>>>> 428fe17c1a82ee4daf64b0ba65c1d6d0393ed061
