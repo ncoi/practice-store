@@ -68,6 +68,16 @@ main {
   background-color: transparent;
   border: none; }
 
+.filter {
+  background-image: url("../img/filter.png");
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 0.3125em;
+  left: -3.125em;
+  width: 4.5625em;
+  height: 4.5625em; }
+
 @font-face {
   font-family: 'DINNextLTPro';
   src: url("../fonts/DINNextLTPro-MediumCond.otf"); }
