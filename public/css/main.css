@@ -173,15 +173,24 @@ header {
 
 footer {
   padding: 2.5em;
-  background-color: #0C0D0D;
-  margin: 3.125em; }
+  background-color: #0C0D0D; }
 
-.menulist__item {
+.menulist {
+  height: 9.375em;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3; }
+
+.menulist li {
+  display: inline-block;
+  /*necessary*/
+  padding-right: 7.625em; }
+
+.menulist__item a {
   font-family: 'DINNextLTPro';
   font-size: 0.875em;
   color: #333333;
-  text-transform: uppercase;
-  padding: 0.1875em; }
+  text-transform: uppercase; }
 
 .sharelist_item {
   width: 3.125em;
@@ -189,6 +198,9 @@ footer {
   text-decoration: none;
   display: inline;
   padding-right: 0.125em; }
+
+.sharelist_item a {
+  color: #333333; }
 
 .sharelist_icon {
   text-align: center;
@@ -217,7 +229,7 @@ footer {
   font-family: 'Glyphicons Halflings';
   pointer-events: none; }
 
-.share {
+.layout__padding-bottom {
   padding-bottom: 1.25em; }
 
 .footer__description {
