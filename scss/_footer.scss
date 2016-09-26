@@ -1,15 +1,24 @@
 footer{
 	padding:em(40);
 	background-color:$color_black;
-	margin:em(50);
 }
 
-.menulist__item {
+.menulist {
+    height: em(150);
+    -webkit-column-count: 3;
+       -moz-column-count: 3;
+            column-count: 3; 
+}
+.menulist li {
+    display: inline-block; /*necessary*/
+    padding-right:em(122);
+}
+
+.menulist__item a {
    font-family: 'DINNextLTPro';
    font-size: em(14);
    color: $color_darkgray;
    text-transform: uppercase;
-   padding:em(3);
 }
 
 .sharelist_item {
@@ -20,6 +29,9 @@ footer{
 	padding-right:em(2);
 }
 
+.sharelist_item a{
+	color: $color_darkgray;
+}
 .sharelist_icon{
 	text-align:center;
 	padding:em(5);
@@ -59,5 +71,3 @@ footer{
 	color:$color_darkgray;
 	margin-top:em(40);
 }
-
-
