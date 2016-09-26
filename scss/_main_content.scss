@@ -1,3 +1,16 @@
 .img-center {
   margin: 0 auto; 
 }
+
+.badge-green {
+    background-color: $color_green;
+}
+
+.badge-blue {
+    background-color: $color_blue;
+}
+
+.card {
+    background-color: $color_white;
+    height: em(430);
+}
