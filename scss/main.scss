@@ -1,6 +1,9 @@
-@import 'default';
+@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../../node_modules/font-awesome/css/font-awesome.min.css';
+
 @import 'variables';
 @import 'functions';
+@import 'default';
 @import 'fonts';
 @import 'typography';
 @import 'breakpoints';
