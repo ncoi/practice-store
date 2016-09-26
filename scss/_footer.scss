@@ -4,14 +4,14 @@ footer{
 }
 
 .menulist {
-    height: em(150);
+    height: 50%;//150
     -webkit-column-count: 3;
        -moz-column-count: 3;
             column-count: 3; 
 }
 .menulist li {
     display: inline-block; /*necessary*/
-    padding-right:em(122);
+    padding-right:50%;//em(122)
 }
 
 .menulist__item a {

@@ -182,7 +182,7 @@ footer {
   background-color: #0C0D0D; }
 
 .menulist {
-  height: 9.375em;
+  height: 50%;
   -webkit-column-count: 3;
   -moz-column-count: 3;
   column-count: 3; }
@@ -190,7 +190,7 @@ footer {
 .menulist li {
   display: inline-block;
   /*necessary*/
-  padding-right: 7.625em; }
+  padding-right: 50%; }
 
 .menulist__item a {
   font-family: 'DINNextLTPro';
@@ -247,26 +247,6 @@ footer {
 @media (min-width: 992px) {
   .element {
     padding-top: 5em; } }
-
-@media (max-width: 1328px) {
-  .form input {
-    width: 80%; } }
-
-@media (max-width: 1415px) {
-  .menulist li {
-    padding-right: 6.25em; } }
-
-@media (max-width: 1270px) {
-  .menulist li {
-    padding-right: 4.375em; } }
-
-@media (max-width: 1100px) {
-  .menulist li {
-    padding-right: 50%; } }
-
-@media (max-width: 610px) {
-  .menulist li {
-    padding-right: 30%; } }
 
 /* Padding top 15px */
 .p-t-15 {
