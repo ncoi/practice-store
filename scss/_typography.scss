@@ -9,10 +9,13 @@ p {
 }
 
 h1 {
+    display: inline-block;
     font-family: 'DINNextLTPro';
     font-size: em(45);
     color: $color_darkgray;
     text-transform: uppercase;
+    background-image: url('../img/title-bg.png');
+    background-repeat: no-repeat;
 }
 
 h2 {
