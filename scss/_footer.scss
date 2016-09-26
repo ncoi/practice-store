@@ -1,0 +1,63 @@
+footer{
+	padding:em(40);
+	background-color:$color_black;
+	margin:em(50);
+}
+
+.menulist__item {
+   font-family: 'DINNextLTPro';
+   font-size: em(14);
+   color: $color_darkgray;
+   text-transform: uppercase;
+   padding:em(3);
+}
+
+.sharelist_item {
+	width:em(50);
+	height:em(50);
+	text-decoration: none;
+	display: inline;
+	padding-right:em(2);
+}
+
+.sharelist_icon{
+	text-align:center;
+	padding:em(5);
+	border: 1px solid  $color_darkgray;
+	font-size:em(25);
+}
+
+.form input {
+    padding-left:em(30);
+    background-color:transparent;
+    border:none;
+    border-bottom:1px solid $color_darkgray;
+}
+::-webkit-input-placeholder { 
+  color: $color_darkgray;
+}
+.form:before {
+    height: 100%;
+    width: 30px;
+    padding-right:em(10);
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    position: absolute;
+    content: "\2709";//envolpe hex value
+    font-family: 'Glyphicons Halflings';
+    pointer-events: none;
+
+}
+
+.share{
+	padding-bottom:em(20);
+}
+
+.footer__description{
+	text-align:center;
+	color:$color_darkgray;
+	margin-top:em(40);
+}
+
+

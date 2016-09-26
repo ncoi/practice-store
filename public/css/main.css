@@ -14,6 +14,19 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin: 0; }
 
+html {
+  font-size: 16px; }
+
+body {
+  background-color: #F2F9FD;
+  font-size: 100%; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+p {
+  margin: 0; }
+
 @font-face {
   font-family: 'DINNextLTPro';
   src: url("../fonts/DINNextLTPro-MediumCond.otf"); }
@@ -58,5 +71,64 @@ h3 {
 .h3--color-blue {
   color: #0089CF; }
 
+input {
+  font-family: 'Roboto';
+  font-size: 0.875em;
+  color: #666666; }
+
 header {
   padding: 1.25em; }
+
+footer {
+  padding: 2.5em;
+  background-color: #0C0D0D;
+  margin: 3.125em; }
+
+.menulist__item {
+  font-family: 'DINNextLTPro';
+  font-size: 0.875em;
+  color: #333333;
+  text-transform: uppercase;
+  padding: 0.1875em; }
+
+.sharelist_item {
+  width: 3.125em;
+  height: 3.125em;
+  text-decoration: none;
+  display: inline;
+  padding-right: 0.125em; }
+
+.sharelist_icon {
+  text-align: center;
+  padding: 0.3125em;
+  border: 1px solid #333333;
+  font-size: 1.5625em; }
+
+.form input {
+  padding-left: 1.875em;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #333333; }
+
+::-webkit-input-placeholder {
+  color: #333333; }
+
+.form:before {
+  height: 100%;
+  width: 30px;
+  padding-right: 0.625em;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  position: absolute;
+  content: "\2709";
+  font-family: 'Glyphicons Halflings';
+  pointer-events: none; }
+
+.share {
+  padding-bottom: 1.25em; }
+
+.footer__description {
+  text-align: center;
+  color: #333333;
+  margin-top: 2.5em; }
