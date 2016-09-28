@@ -2,20 +2,22 @@ main{
     margin: em(40);
     margin-top: em(20);
 }
-.img-center {
+
+.card__img--center {
   margin: 0 auto; 
 }
 
-.badge-green {
-    background-color: $color_green;
+.card__badge {
     padding-left: em(14);
     padding-right: em(14);
 }
 
-.badge-blue {
+.card__badge--green {
+    background-color: $color_green;
+}
+
+.card__badge--blue {
     background-color: $color_blue;
-    padding-left: em(14);
-    padding-right: em(14);
 }
 
 .card {
@@ -25,17 +27,13 @@ main{
     position: relative;
 }
 
-.most-popular {
+.content__most-popular {
     background-color: transparent;
     border: none;
     font-family: 'DINNextLTPro';
     font-size: em(14);
     color: $color_darkgray;
     text-transform: uppercase;
-}
-
-.arrow-down {
-    padding-left: em(20);
 }
 
 .content {
@@ -48,21 +46,18 @@ main{
     margin-right:auto;
 }
 
-.card-arrivals {
+.card--arrivals {
     background-image: url(../img/product12.png);
     background-size: cover;
 }
 
-.gray-icon {
+.card__btn-icon {
+    background-color: transparent;
+    border: none;
     color: $color_gray;
 }
 
-.btn-icon {
-    background-color: transparent;
-    border: none;
-}
-
-.filter {
+.content__filter {
     background-image: url('../img/filter.png');
     background-color: transparent;
     border: none;
@@ -71,4 +66,20 @@ main{
     left: em(-50);
     width: em(73);
     height: em(73);
+}
+
+.modal-backdrop {
+    background-color: $color_black;
+    opacity: .9 !important;
+}
+
+.close{
+    transition: transform 1s;
+    font-size: 500%;
+    color: $color_white;
+    margin-right: em(3);
+}
+.close:hover{
+    transform: rotate(360deg);
+    color: $color_white;
 }
