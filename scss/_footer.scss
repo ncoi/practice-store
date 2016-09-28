@@ -3,31 +3,35 @@ footer{
 	background-color:$color_black;
 }
 
+//Menu list
 .menulist {
-    height: 50%;//150
-    -webkit-column-count: 3;
-       -moz-column-count: 3;
-            column-count: 3; 
+  height: 50%;//150
+  column-count: 3; 
 }
 .menulist li {
-    display: inline-block; /*necessary*/
-    padding-right:50%;//em(122)
+  display: inline-block; /*necessary*/
+  padding-right:50%;//em(122)
 }
 
 .menulist__item a {
-   font-family: 'DINNextLTPro';
-   font-size: em(14);
-   color: $color_darkgray;
-   text-transform: uppercase;
+  font-family: 'DINNextLTPro';
+  font-size: em(14);
+  color: $color_darkgray;
+  text-transform: uppercase;
 }
 
-.sharelist_item {
+//Share list
+.sharesection{
+  text-align: right;
+  margin-left:16.66666667% //offset of col-md-2
+}
+.sharelist__item {
 	text-decoration: none;
 	display: inline;
 	padding-right:em(2);
 }
 
-.sharelist_item a{
+.sharelist__item a{
 	color: $color_darkgray;
 	width:50px;
 	height:50px;
@@ -35,34 +39,37 @@ footer{
 	padding:12px;
 	border: 1px solid  $color_darkgray;
 }
-.sharelist_icon{
-	
+
+.sharelist__icon{
 	font-size:em(25);
+}
+
+.form {
+  padding-top:em(25);
 }
 .form input {
 	width:278px;
-    padding-left:em(30);
-    background-color:transparent;
-    border:none;
-    border-bottom:1px solid $color_darkgray;
+  padding-left:em(30);
+  background-color:transparent;
+  border:none;
+  border-bottom:1px solid $color_darkgray;
 }
+
 ::-webkit-input-placeholder { 
   color: $color_darkgray;
 }
+
 .form:before {
-    height: 100%;
-    width: 30px;
-    padding-right:em(10);
-    position: absolute;
-    content: "\2709";//envolpe hex value
-    font-family: 'Glyphicons Halflings';
-    pointer-events: none;
-
+  height: 100%;
+  width: 30px;
+  padding-right:em(10);
+  position: absolute;
+  content: "\2709";//envolpe hex value
+  font-family: 'Glyphicons Halflings';
+  pointer-events: none;
 }
 
-.layout__padding-bottom{
-	padding-bottom:em(20);
-}
+//Footer description
 
 .footer__description{
 	text-align:center;
