@@ -81,6 +81,16 @@ main {
   background-color: transparent;
   border: none; }
 
+.filter {
+  background-image: url("../img/filter.png");
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 0.3125em;
+  left: -3.125em;
+  width: 4.5625em;
+  height: 4.5625em; }
+
 @font-face {
   font-family: 'DINNextLTPro';
   src: url("../fonts/DINNextLTPro-MediumCond.otf"); }
@@ -133,10 +143,6 @@ input {
   font-size: 0.875em;
   color: #666666; }
 
-@media (min-width: 992px) {
-  .element {
-    padding-top: 5em; } }
-
 header {
   margin-top: 5px;
   margin-left: 5px;
@@ -176,7 +182,7 @@ footer {
   background-color: #0C0D0D; }
 
 .menulist {
-  height: 9.375em;
+  height: 50%;
   -webkit-column-count: 3;
   -moz-column-count: 3;
   column-count: 3; }
@@ -184,7 +190,7 @@ footer {
 .menulist li {
   display: inline-block;
   /*necessary*/
-  padding-right: 7.625em; }
+  padding-right: 50%; }
 
 .menulist__item a {
   font-family: 'DINNextLTPro';
@@ -193,22 +199,23 @@ footer {
   text-transform: uppercase; }
 
 .sharelist_item {
-  width: 3.125em;
-  height: 3.125em;
   text-decoration: none;
   display: inline;
   padding-right: 0.125em; }
 
 .sharelist_item a {
-  color: #333333; }
+  color: #333333;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding: 12px;
+  border: 1px solid #333333; }
 
 .sharelist_icon {
-  text-align: center;
-  padding: 0.3125em;
-  border: 1px solid #333333;
   font-size: 1.5625em; }
 
 .form input {
+  width: 278px;
   padding-left: 1.875em;
   background-color: transparent;
   border: none;
@@ -221,9 +228,6 @@ footer {
   height: 100%;
   width: 30px;
   padding-right: 0.625em;
-  display: -webkit-box;
-  -webkit-box-pack: center;
-  -webkit-box-align: center;
   position: absolute;
   content: "\2709";
   font-family: 'Glyphicons Halflings';
@@ -236,6 +240,22 @@ footer {
   text-align: center;
   color: #333333;
   margin-top: 2.5em; }
+
+@media (min-width: 992px) {
+  .element {
+    padding-top: 5em; } }
+
+@media (max-width: 992px) {
+  .element {
+    padding-top: 5em; }
+  .share, .form {
+    text-align: center; } }
+
+@media (max-width: 766px) {
+  .menulist {
+    margin-top: 1.25em; }
+  .brand {
+    text-align: center; } }
 
 /* Padding top 15px */
 .p-t-15 {

@@ -1,6 +1,24 @@
-// breakpoints for headers 768
+//breakpoint for footer
 @media (min-width: 992px){
     .element{
         padding-top: em(80);
+    }
+}
+
+@media (max-width: 992px){
+    .element{
+        padding-top: em(80);
+    }
+    .share,.form{
+    	text-align:center;
+    }
+}
+
+@media (max-width: 766px){
+    .menulist{
+        margin-top: em(20);
+    }
+    .brand{
+    	text-align:center;
     }
 }

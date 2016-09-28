@@ -62,3 +62,14 @@ main{
     background-color: transparent;
     border: none;
 }
+
+.filter {
+    background-image: url('../img/filter.png');
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: em(5);
+    left: em(-50);
+    width: em(73);
+    height: em(73);
+}
