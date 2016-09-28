@@ -31,18 +31,18 @@ main {
   margin: 2.5em;
   margin-top: 1.25em; }
 
-.img-center {
+.card__img--center {
   margin: 0 auto; }
 
-.badge-green {
-  background-color: #83D78C;
+.card__badge {
   padding-left: 0.875em;
   padding-right: 0.875em; }
 
-.badge-blue {
-  background-color: #0089CF;
-  padding-left: 0.875em;
-  padding-right: 0.875em; }
+.card__badge--green {
+  background-color: #83D78C; }
+
+.card__badge--blue {
+  background-color: #0089CF; }
 
 .card {
   background-color: #FFFFFF;
@@ -50,16 +50,13 @@ main {
   padding: 1.75em;
   position: relative; }
 
-.most-popular {
+.content__most-popular {
   background-color: transparent;
   border: none;
   font-family: 'DINNextLTPro';
   font-size: 0.875em;
   color: #333333;
   text-transform: uppercase; }
-
-.arrow-down {
-  padding-left: 1.25em; }
 
 .content {
   bottom: 3.125em;
@@ -70,16 +67,38 @@ main {
   margin-left: auto;
   margin-right: auto; }
 
-.card-arrivals {
+.card--arrivals {
   background-image: url(../img/product12.png);
   background-size: cover; }
 
-.gray-icon {
+.card__btn-icon {
+  background-color: transparent;
+  border: none;
   color: #666666; }
 
-.btn-icon {
+.content__filter {
+  background-image: url("../img/filter.png");
   background-color: transparent;
-  border: none; }
+  border: none;
+  position: absolute;
+  top: 0.3125em;
+  left: -3.125em;
+  width: 4.5625em;
+  height: 4.5625em; }
+
+.modal-backdrop {
+  background-color: #0C0D0D;
+  opacity: .9 !important; }
+
+.close {
+  transition: transform 1s;
+  font-size: 500%;
+  color: #FFFFFF;
+  margin-right: 0.1875em; }
+
+.close:hover {
+  transform: rotate(360deg);
+  color: #FFFFFF; }
 
 .filter {
   background-image: url("../img/filter.png");
@@ -276,3 +295,7 @@ footer {
 /* Margin top 22px */
 .m-t-22 {
   margin-top: 1.375em; }
+
+/* Padding Left 20px */
+.p-l-20 {
+  padding-left: 1.25em; }
