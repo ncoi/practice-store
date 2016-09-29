@@ -185,12 +185,16 @@ header {
   border-bottom: 4px solid #0089CF;
   color: #0089CF; }
 
-.navbar-nav > li > a:hover {
+.header__navbar-custom {
+  background-color: #F2F9FD;
+  border: none; }
+
+.header__navbar-custom .navbar-nav > li > a:hover {
   background-color: #F2F9FD;
   border-bottom: 4px solid #0089CF;
   color: #0089CF; }
 
-.navbar-nav > li > a {
+.header__navbar-custom .navbar-nav > li > a {
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 0;
@@ -273,8 +277,6 @@ footer {
     margin-left: 0px; } }
 
 @media (max-width: 992px) {
-  .element {
-    padding-top: 5em; }
   .sharesection, .form {
     text-align: center; } }
 

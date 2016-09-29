@@ -24,13 +24,18 @@ header {
     color: $color_blue;
 }
 
-.navbar-nav > li > a:hover{
+.header__navbar-custom {
+    background-color:$color_whiteice;
+  	border: none;
+}
+
+.header__navbar-custom .navbar-nav > li > a:hover{
     background-color: $color_whiteice;
     border-bottom: 4px solid $color_blue;
     color: $color_blue;
 }
 
-.navbar-nav > li > a {
+.header__navbar-custom .navbar-nav > li > a {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 0;
