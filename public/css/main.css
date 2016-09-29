@@ -202,8 +202,6 @@ footer {
 
 .menulist {
   height: 50%;
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
   column-count: 3; }
 
 .menulist li {
@@ -217,12 +215,16 @@ footer {
   color: #333333;
   text-transform: uppercase; }
 
-.sharelist_item {
+.sharesection {
+  text-align: right;
+  margin-left: 16.66667%; }
+
+.sharelist__item {
   text-decoration: none;
   display: inline;
   padding-right: 0.125em; }
 
-.sharelist_item a {
+.sharelist__item a {
   color: #333333;
   width: 50px;
   height: 50px;
@@ -230,8 +232,11 @@ footer {
   padding: 12px;
   border: 1px solid #333333; }
 
-.sharelist_icon {
+.sharelist__icon {
   font-size: 1.5625em; }
+
+.form {
+  padding-top: 1.5625em; }
 
 .form input {
   width: 278px;
@@ -252,9 +257,6 @@ footer {
   font-family: 'Glyphicons Halflings';
   pointer-events: none; }
 
-.layout__padding-bottom {
-  padding-bottom: 1.25em; }
-
 .footer__description {
   text-align: center;
   color: #333333;
@@ -264,10 +266,14 @@ footer {
   .element {
     padding-top: 5em; } }
 
+@media (max-width: 1330px) {
+  .sharesection {
+    margin-left: 0px; } }
+
 @media (max-width: 992px) {
   .element {
     padding-top: 5em; }
-  .share, .form {
+  .sharesection, .form {
     text-align: center; } }
 
 @media (max-width: 766px) {
@@ -275,6 +281,16 @@ footer {
     margin-top: 1.25em; }
   .brand {
     text-align: center; } }
+
+@media (max-width: 402px) {
+  .sharelist__item {
+    padding-right: 0.0625em; }
+  .sharelist__item a {
+    width: 45px;
+    height: 45px;
+    padding: 9px; }
+  .form input {
+    width: 250px; } }
 
 /* Padding top 15px */
 .p-t-15 {

@@ -1,7 +1,14 @@
-//breakpoint for footer
+// breakpoints for headers 768
 @media (min-width: 992px){
     .element{
         padding-top: em(80);
+    }
+}
+
+//breakpoint for footer
+@media (max-width: 1330px){
+    .sharesection{
+        margin-left:0px;//remove margin-left
     }
 }
 
@@ -9,7 +16,9 @@
     .element{
         padding-top: em(80);
     }
-    .share,.form{
+
+    //Adjust share list and form area in footer
+    .sharesection,.form{
     	text-align:center;
     }
 }
@@ -21,4 +30,19 @@
     .brand{
     	text-align:center;
     }
+}
+
+@media (max-width: 402px){
+    .sharelist__item {
+        padding-right:em(1);
+    }
+    .sharelist__item a{
+        width:45px;
+        height:45px;
+        padding:9px;
+    }
+    .form input {
+        width:250px;
+    }
+
 }
