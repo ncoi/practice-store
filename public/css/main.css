@@ -337,3 +337,11 @@ footer {
 /* Padding Left 20px */
 .p-l-20 {
   padding-left: 1.25em; }
+
+/* Padding Left 5px */
+.p-l-10 {
+  padding-left: 0.625em; }
+
+/* Padding Right 5px */
+.p-r-10 {
+  padding-right: 0.625em; }
