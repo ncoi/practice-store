@@ -1,0 +1,26 @@
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 50%;
+  box-shadow: 1px 1px 11px 1px $color_darkgray;
+}
+
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+.content--center{
+	text-align:center;
+}
+
+.img--center{
+	margin: 0 auto
+}
