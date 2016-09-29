@@ -16,6 +16,8 @@ h1 {
     text-transform: uppercase;
     background-image: url('../img/title-bg.png');
     background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0 em(5) 0 em(5);
 }
 
 h2 {
