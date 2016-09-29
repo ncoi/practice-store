@@ -314,6 +314,19 @@ footer {
   .sharelist__icon {
     font-size: 1.125em; } }
 
+@media (max-width: 768px) {
+  .header__navbar-custom {
+    border: none; }
+  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #dceffa; } }
+
+@media (max-width: 768px) {
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none; }
+  .navbar-default .navbar-toggle {
+    margin-top: 20px;
+    margin-bottom: 30px; } }
+
 /* Padding top 15px */
 .p-t-15 {
   padding-top: 0.9375em; }
