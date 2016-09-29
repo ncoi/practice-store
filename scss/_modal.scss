@@ -1,20 +1,18 @@
 .btn-circle {
-  width: 30px;
-  height: 30px;
+  width: em(30);
+  height: em(30);
   text-align: center;
-  padding: 6px 0;
-  font-size: 12px;
-  line-height: 1.428571429;
+  padding: em(6) 0;
+  font-size: em(12);
   border-radius: 50%;
-  box-shadow: 1px 1px 11px 1px $color_darkgray;
+  box-shadow: em(1) em(1) em(11) em(1) $color_darkgray;
 }
 
 .btn-circle.btn-lg {
-  width: 50px;
-  height: 50px;
-  padding: 10px 16px;
-  font-size: 18px;
-  line-height: 1.33;
+  width: em(50);
+  height: em(50);
+  padding: em(10) em(16);
+  font-size: em(18);
 }
 
 .content--center{
@@ -22,8 +20,8 @@
 }
 
 .img{
-	padding-top:100px;
-	padding-bottom:40px;
+	padding-top:em(100);
+	padding-bottom:em(40);
 }
 .img--center{
 	margin: 0 auto

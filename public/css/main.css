@@ -360,28 +360,26 @@ footer {
   padding-right: 0.625em; }
 
 .btn-circle {
-  width: 30px;
-  height: 30px;
+  width: 1.875em;
+  height: 1.875em;
   text-align: center;
-  padding: 6px 0;
-  font-size: 12px;
-  line-height: 1.428571429;
+  padding: 0.375em 0;
+  font-size: 0.75em;
   border-radius: 50%;
-  box-shadow: 1px 1px 11px 1px #333333; }
+  box-shadow: 0.0625em 0.0625em 0.6875em 0.0625em #333333; }
 
 .btn-circle.btn-lg {
-  width: 50px;
-  height: 50px;
-  padding: 10px 16px;
-  font-size: 18px;
-  line-height: 1.33; }
+  width: 3.125em;
+  height: 3.125em;
+  padding: 0.625em 1em;
+  font-size: 1.125em; }
 
 .content--center {
   text-align: center; }
 
 .img {
-  padding-top: 100px;
-  padding-bottom: 40px; }
+  padding-top: 6.25em;
+  padding-bottom: 2.5em; }
 
 .img--center {
   margin: 0 auto; }

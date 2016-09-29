@@ -1,4 +1,4 @@
-footer {
+footer{
 	padding:em(40);
 	background-color:$color_black;
 }
@@ -8,7 +8,6 @@ footer {
   height: 50%;//150
   column-count: 3; 
 }
-
 .menulist li {
   display: inline-block; /*necessary*/
   padding-right:50%;//em(122)
@@ -32,7 +31,7 @@ footer {
 	padding-right:em(2);
 }
 
-.sharelist__item a {
+.sharelist__item a{
 	color: $color_darkgray;
 	width:50px;
 	height:50px;
@@ -48,7 +47,6 @@ footer {
 .form {
   padding-top:em(25);
 }
-
 .form input {
 	width:278px;
   padding-left:em(30);
