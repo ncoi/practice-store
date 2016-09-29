@@ -284,7 +284,7 @@ footer {
   .brand {
     text-align: center; } }
 
-@media (max-width: 402px) {
+@media (max-width: 420px) {
   .sharelist__item {
     padding-right: 0.0625em; }
   .sharelist__item a {
@@ -293,6 +293,16 @@ footer {
     padding: 9px; }
   .form input {
     width: 250px; } }
+
+@media (max-width: 390px) {
+  .sharelist__item {
+    padding-right: 0em; }
+  .sharelist__item a {
+    width: 18%;
+    height: 18%;
+    padding: 6px; }
+  .form input {
+    width: 100%; } }
 
 /* Padding top 15px */
 .p-t-15 {

@@ -32,7 +32,7 @@
     }
 }
 
-@media (max-width: 402px){
+@media (max-width: 420px){
     .sharelist__item {
         padding-right:em(1);
     }
@@ -43,6 +43,22 @@
     }
     .form input {
         width:250px;
+    }
+
+}
+
+
+@media (max-width: 390px){
+    .sharelist__item {
+        padding-right:em(0);
+    }
+    .sharelist__item a{
+        width:18%;//35px;
+        height:18%;//35px;
+        padding:6px;
+    }
+    .form input {
+        width:100%;
     }
 
 }
