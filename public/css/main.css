@@ -379,5 +379,8 @@ footer {
 .content--center {
   text-align: center; }
 
+.img {
+  padding: 100px; }
+
 .img--center {
   margin: 0 auto; }
