@@ -304,6 +304,14 @@ footer {
   .form input {
     width: 100%; } }
 
+@media (max-width: 320px) {
+  .sharelist__item a {
+    width: 16%;
+    height: 16%;
+    padding: 3px; }
+  .sharelist__icon {
+    font-size: 1.125em; } }
+
 /* Padding top 15px */
 .p-t-15 {
   padding-top: 0.9375em; }
