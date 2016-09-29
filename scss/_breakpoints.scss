@@ -40,7 +40,22 @@
         padding:9px;
     }
     .form input {
-        width:250px;
+       width:250px;
+    }
+
+}
+
+@media (max-width: 373px){
+    .sharelist__item {
+        padding-right:em(0);
+    }
+    .sharelist__item a{
+        width:18%;//35px;
+        height:18%;//35px;
+        padding:7px;
+    }
+    .form input {
+        width:100%;
     }
 
 }
