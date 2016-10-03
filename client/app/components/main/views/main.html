@@ -1,0 +1,25 @@
+<main>
+    <div class="container-fluid" ng-init="main.getShoes()">
+        <!-- Footwear Title -->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>Footwear</h1>
+            </div>
+        </div>
+        <!-- Footwear Subtitle -->
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center">
+                <h3 class="h3--color-blue">689 Shoes</h3>
+            </div>
+            <div class="col-md-3 text-right">
+                <button class="content__most-popular">Most Popular<i class="fa fa-angle-down p-l-20"></i></button>
+            </div>
+        </div>
+
+        <!-- Row of Products -->
+        <div class="row">
+            <!-- Product -->
+            <shoe-directive ng-repeat="shoe in main.shoeList" shoe="shoe"></shoe-directive>
+        </div>
+    </div>
+</main>

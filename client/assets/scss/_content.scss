@@ -4,7 +4,8 @@ main{
 }
 
 .card__img--center {
-  margin: 0 auto; 
+  margin: 0 auto;
+  max-height: em(215);
 }
 
 .card__badge {

@@ -1,0 +1,42 @@
+<!doctype html>
+<html class="no-js" lang="" ng-app="store">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Store</title>
+    <meta name="description" content="Shoe store practice using Git">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Add css files here -->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    
+    <header-directive></header-directive>
+
+    <div ng-view></div>
+
+    <footer-directive></footer-directive>
+    
+    <!-- Add js files here -->
+    <!-- jQuery -->
+    <script src="scripts/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap.js -->
+    <script src="scripts/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Angular -->
+    <script src="scripts/angular/angular.min.js"></script>
+    <script src="scripts/angular-route/angular-route.min.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/routes.js"></script>
+    <script src="app/components/main/controllers/main.ctrl.js"></script>
+    <script src="app/components/main/services/main.service.js"></script>
+    <script src="app/shared/directives/footer/footer.js"></script>
+    <script src="app/shared/directives/header/header.js"></script>
+    <script src="app/shared/directives/shoe/shoe.js"></script>
+    
+
+</body>
+
+</html>
