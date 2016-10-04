@@ -41,6 +41,9 @@ var todoSchema = mongoose.Schema({
     },
     img_url: {
         type: String
+    },
+    background_image:{
+        type:Boolean
     }
 });
 

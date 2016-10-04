@@ -12,7 +12,8 @@
     "news" : false,
     "small" : true,
     "show_description" : false,
-    "img_url" : "images/product1.png"
+    "img_url" : "images/product1.png",
+    "background_image":false
 }
 
 {
@@ -29,7 +30,8 @@
     "news" : true,
     "small" : false,
     "show_description" : false,
-    "img_url" : "images/product2.png"
+    "img_url" : "images/product2.png",
+     "background_image":false
 }
 
 {
@@ -46,7 +48,8 @@
     "news" : false,
     "small" : true,
     "show_description" : false,
-    "img_url" : "images/product3.png"
+    "img_url" : "images/product3.png",
+     "background_image":false
 }
 
 {
@@ -63,7 +66,8 @@
     "news" : true,
     "small" : false,
     "show_description" : true,
-    "img_url" : "images/product4.png"
+    "img_url" : "images/product4.png",
+     "background_image":false
 }
 
 {
@@ -80,7 +84,8 @@
     "news" : false,
     "small" : true,
     "show_description" : false,
-    "img_url" : "images/product5.png"
+    "img_url" : "images/product5.png",
+     "background_image":false
 }
 
 {
@@ -97,7 +102,8 @@
     "news" : false,
     "small" : true,
     "show_description" : false,
-    "img_url" : "images/product6.png"
+    "img_url" : "images/product6.png",
+     "background_image":false
 }
 
 {
@@ -114,7 +120,8 @@
     "news" : false,
     "small" : true,
     "show_description" : false,
-    "img_url" : "images/product7.png"
+    "img_url" : "images/product7.png",
+     "background_image":false
 }
 
 {
@@ -131,7 +138,8 @@
     "news" : false,
     "small" : true,
     "show_description" : false,
-    "img_url" : "images/product8.png"
+    "img_url" : "images/product8.png",
+    "background_image":false
 }
 
 {
@@ -148,7 +156,8 @@
     "news" : false,
     "small" : true,
     "show_description" : false,
-    "img_url" : "images/product9.png"
+    "img_url" : "images/product9.png",
+     "background_image":false
 }
 
 {
@@ -165,7 +174,8 @@
     "news" : false,
     "small" : true,
     "show_description" : false,
-    "img_url" : "images/product10.png"
+    "img_url" : "images/product10.png",
+     "background_image":false
 }
 
 {
@@ -182,11 +192,30 @@
     "news" : false,
     "small" : true,
     "show_description" : false,
-    "img_url" : "images/product11.png"
+    "img_url" : "images/product11.png",
+     "background_image":false
 }
 
 {
-    "_id" : ObjectId("57f2db78fa76cc4352ec2433"),
+    "_id" : ObjectId("57f2db2dfa76cc4352ec2433"),
+    "title" : "New Arrivals",
+    "subtitle" : "Og Era Lx Wtaps",
+    "price" : "",
+    "discount_price" : "",
+    "description" : "",
+    "heart" : false,
+    "bag" : false,
+    "discount" : false,
+    "exclusive" : false,
+    "news" : false,
+    "small" : true,
+    "show_description" : false,
+    "img_url" : "",
+    "background_image":true
+}
+
+{
+    "_id" : ObjectId("57f2db78fa76cc4352ec2434"),
     "title" : "Nike",
     "subtitle" : "Lunar force 1 sp acronym white",
     "price" : "300",
@@ -199,5 +228,6 @@
     "news" : true,
     "small" : false,
     "show_description" : true,
-    "img_url" : "images/product13.png"
+    "img_url" : "images/product13.png",
+     "background_image":false
 }
