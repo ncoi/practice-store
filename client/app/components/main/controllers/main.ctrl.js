@@ -17,6 +17,7 @@
         }
 
         vm.addShoe = function(newShoe) {
+            newShoe.background_image=false;
             storeData.addShoe(newShoe).then(function(response) {
                 console.log(newShoe);
                 window.location.href='#/';
