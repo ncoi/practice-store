@@ -1,44 +1,40 @@
-<div ng-switch="{{shoe.show_description}}">
-
-    <div ng-switch-when="true">
-        <div class="col-md-6 col-sm-8 p-t-15 p-b-15">
-            <div class="card">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h3 ng-if="shoe.news" class="badge card__badge card__badge--green">News</h3>
-                        <h3 ng-if="shoe.exclusive" class="badge card__badge card__badge--blue">Exclusive</h3>
-                    </div>
-                </div>
-                <div class="row element">
-                    <div class="col-md-6 col-sm-6">
-                        <img class="img-responsive card__img--center" ng-src="{{shoe.img_url}}" alt="">
-                    </div>
-                    <div class="col-md-6 col-sm-6">
-                        <h2>{{shoe.title}}</h2>
-                        <p class="p--subtitle m-t-12">{{shoe.subtitle}}</p>
-                        <p class="m-t-12">{{shoe.description}}</p>
-                        <h2 class="m-t-22">{{shoe.price | currency}} <span ng-if="shoe.discount" class="h2--discount-red">{{shoe.discount_price | currency}}</span></h2>
-                    </div>
+<div ng-if="shoe.show_description">
+    <div class="col-md-6 col-sm-8 p-t-15 p-b-15">
+        <div class="card">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h3 ng-if="shoe.news" class="badge card__badge card__badge--green">News</h3>
+                    <h3 ng-if="shoe.exclusive" class="badge card__badge card__badge--blue">Exclusive</h3>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div ng-switch-when="false">
-        <div ng-class="{{shoe.small}} ? 'col-md-3 col-sm-4' : 'col-md-6 col-sm-8'" class="text-center p-t-15 p-b-15">
-            <div class="card">
-                <button ng-if="shoe.heart" class="fa fa-heart card__btn-icon pull-left"></button>
-                <h3 ng-if="shoe.news" class="badge card__badge card__badge--green">News</h3>
-                <h3 ng-if="shoe.exclusive" class="badge card__badge card__badge--blue">Exclusive</h3>
-                <button ng-if="shoe.bag" class="fa fa-shopping-bag card__btn-icon pull-right"></button>
-                <div class="content">
-                    <img class="img-responsive card__img--center p-l-10 p-r-10" ng-src="{{shoe.img_url}}" alt="">
-                    <h2 class="p-t-42">{{shoe.title}}</h2>
+            <div class="row element">
+                <div class="col-md-6 col-sm-6">
+                    <img class="img-responsive card__img--center" ng-src="{{shoe.img_url}}" alt="">
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <h2>{{shoe.title}}</h2>
                     <p class="p--subtitle m-t-12">{{shoe.subtitle}}</p>
+                    <p class="m-t-12">{{shoe.description}}</p>
                     <h2 class="m-t-22">{{shoe.price | currency}} <span ng-if="shoe.discount" class="h2--discount-red">{{shoe.discount_price | currency}}</span></h2>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
+<div ng-if="!shoe.show_description">
+    <div ng-class="shoe.small ? 'col-md-3 col-sm-4' : 'col-md-6 col-sm-8'" class="text-center p-t-15 p-b-15">
+        <div class="card">
+            <button ng-if="shoe.heart" class="fa fa-heart card__btn-icon pull-left"></button>
+            <h3 ng-if="shoe.news" class="badge card__badge card__badge--green">News</h3>
+            <h3 ng-if="shoe.exclusive" class="badge card__badge card__badge--blue">Exclusive</h3>
+            <button ng-if="shoe.bag" class="fa fa-shopping-bag card__btn-icon pull-right"></button>
+            <div class="content">
+                <img class="img-responsive card__img--center p-l-10 p-r-10" ng-src="{{shoe.img_url}}" alt="">
+                <h2 class="p-t-42">{{shoe.title}}</h2>
+                <p class="p--subtitle m-t-12">{{shoe.subtitle}}</p>
+                <h2 class="m-t-22">{{shoe.price | currency}} <span ng-if="shoe.discount" class="h2--discount-red">{{shoe.discount_price | currency}}</span></h2>
+            </div>
+        </div>
+    </div>
 </div>

@@ -9,6 +9,9 @@
       return{
           getShoes: function() {
               return $http.get('/shoe');
+          },
+          addShoe: function(shoe) {
+              return $http.post('/shoe', shoe);
           }
       }
   }
