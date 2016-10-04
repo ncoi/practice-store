@@ -15,6 +15,13 @@
                 console.log(response.data);
             });
         }
+
+        vm.addShoe = function(newShoe) {
+            storeData.addShoe(newShoe).then(function(response) {
+                console.log(newShoe);
+                window.location.href='#/';
+            });
+        }
     }
 
 

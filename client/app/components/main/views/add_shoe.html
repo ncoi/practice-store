@@ -1,0 +1,85 @@
+<div class="container">
+    <a href="#/shoes">Go Back</a>
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title">Add Shoe</h3>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-md-5">
+                    <form ng-submit="main.addShoe(newShoe)">
+                        <div class="form-group">
+                            <label for="title">Title</label>
+                            <input type="text" class="form-control" id="title" ng-model="newShoe.title" placeholder="Title" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">
+                                <input ng-init="newShoe.small = false" type="checkbox" ng-model="newShoe.small"> Small?
+                            </label>
+                            <label class="control-label">
+                                <input ng-init="newShoe.show_description = false" type="checkbox" ng-model="newShoe.show_description"> Two Columns?
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label for="subtitle">Subtitle</label>
+                            <input type="text" class="form-control" id="subtitle" ng-model="newShoe.subtitle" placeholder="Subtitle" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="price">Price</label>
+                            <input type="text" class="form-control" id="price" ng-model="newShoe.price" placeholder="Price" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">
+                                <input ng-init="newShoe.discount = false" type="checkbox" ng-model="newShoe.discount"> Discounted Price?
+                            </label>
+                            <input type="text" class="form-control" id="discount" ng-model="newShoe.discount_price" placeholder="Original Price" required>
+                        </div>
+                        <label>Tags </label>
+                        <div class="form-group">
+                            <label class="checkbox-inline">
+                                <input ng-init="newShoe.news = false" type="checkbox" id="inlineCheckbox1" ng-model="newShoe.news"> News
+                            </label>
+                            <label class="checkbox-inline">
+                                <input ng-init="newShoe.exclusive = false" type="checkbox" id="inlineCheckbox2" ng-model="newShoe.exclusive"> Exclusive
+                            </label>
+                            <label class="checkbox-inline">
+                                <input ng-init="newShoe.heart = false" type="checkbox" id="inlineCheckbox3" ng-model="newShoe.heart"> Heart
+                            </label>
+                            <label class="checkbox-inline">
+                                <input ng-init="newShoe.bag = false" type="checkbox" id="inlineCheckbox3" ng-model="newShoe.bag"> Shopping Bag
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label for="description">Description</label>
+                            <textarea ng-model="newShoe.description" id="description" class="form-control" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="img_url">Image URL</label>
+                            <input type="text" class="form-control" id="img_url" ng-model="newShoe.img_url" placeholder="Image URL" required>
+                        </div>
+                        <button type="submit" class="btn btn-danger pull-right">Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-7">
+
+                    <newshoe-directive shoe="newShoe"></newshoe-directive>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--<br>{{newShoe.title}}<br> {{newShoe.small}}
+                    <br> {{newShoe.show_description}}
+                    <br> {{newShoe.subtitle}}
+                    <br> {{newShoe.price}}
+                    <br> {{newShoe.discount}}
+                    <br> {{newShoe.discount_price}}
+                    <br> {{newShoe.news}}
+                    <br> {{newShoe.exclusive}}
+                    <br> {{newShoe.heart}}
+                    <br> {{newShoe.bag}}
+                    <br> {{newShoe.description}}
+                    <br> {{newShoe.img_url}}<br>-->
