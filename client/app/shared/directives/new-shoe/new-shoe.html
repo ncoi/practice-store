@@ -3,7 +3,7 @@
     <div class="panel-body">
         <div ng-if="shoe.show_description">
             <div class="col-md-12 col-sm-12 p-t-15 p-b-15">
-                <div class="card">
+                <div class="card card__border">
                     <div class="row">
                         <div class="col-md-12 text-center">
                             <button ng-if="shoe.heart" class="fa fa-heart card__btn-icon pull-left"></button>
@@ -28,8 +28,8 @@
         </div>
 
         <div ng-if="!shoe.show_description">
-            <div ng-class="shoe.small ? 'col-md-6 col-sm-6' : 'col-md-12 col-sm-12'" class="text-center p-t-15 p-b-15">
-                <div class="card">
+            <div ng-class="shoe.small ? 'col-md-offset-3 col-md-6 col-sm-6' : 'col-md-12 col-sm-12'" class="text-center p-t-15 p-b-15">
+                <div class="card card__border">
                     <button ng-if="shoe.heart" class="fa fa-heart card__btn-icon pull-left"></button>
                     <h3 ng-if="shoe.news" class="badge card__badge card__badge--green">News</h3>
                     <h3 ng-if="shoe.exclusive" class="badge card__badge card__badge--blue">Exclusive</h3>
