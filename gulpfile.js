@@ -16,14 +16,13 @@ gulp.task('compressScripts', function() {
 });
 
 gulp.task('typescript', function(){
-    var tsResult = gulp.src(tsPath)
-                    .pipe(ts({
-                        target: 'ES5',
-                        declarationFiles: false,
-                        noExternalResolve: true
-                    }));
-    tsResult.dts.pipe(gulp.dest(compilePath + 'tsdefinitions'));
-    return tsResult.js.pipe(gulp.dest(compilePath + '/typescript'))
+    return gulp.src(tsPath)
+        .pipe(ts({
+            target: 'ES5', //ES6
+            declarationFiles: false,
+            noExternalResolve: true
+        }))
+        .pipe(gulp.dest(compilePath + '/typescript'));
 });
 
 gulp.task('watch', function() {
